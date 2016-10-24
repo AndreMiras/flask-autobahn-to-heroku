@@ -1,5 +1,7 @@
 # Flask & Autobahn to Heroku
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 This is a template project for running a Flask web app using Autobahn WAMP implementation. Everything can be ran on Heroku or somewhere else.
 
 This is somewhat based on [AutobahnPython Crochet examples](https://github.com/crossbario/autobahn-python/tree/master/examples/twisted/wamp/app/crochet).
