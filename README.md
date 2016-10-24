@@ -32,3 +32,9 @@ Or run it on your local computer or any other divice.
 python backend.py
 ```
 Then open your web browser to the deployed Heroku application to talk to the backend.
+
+## Shutdown
+Stop your dynos if you don't want to get charged.
+```
+heroku ps:scale web=0
+```
