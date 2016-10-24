@@ -2,5 +2,11 @@
   "name": "Flask & Autobahn",
   "description": "Deploys the A Flask web app using Autobahn to Heroku",
   "repository": "https://github.com/AndreMiras/flask-autobahn-to-heroku",
-  "keywords": ["Heroku", "Flask", "Autobahn", "Crochet", "Python"]
+  "keywords": ["Heroku", "Flask", "Autobahn", "Crochet", "Python"],
+  "env": {
+    "ROUTER_ADDRESS": {
+      "description": "The Crossbar.io router to connect to.",
+      "value": "wss://some.crossbar.router.address/ws"
+    }
+  }
 }
