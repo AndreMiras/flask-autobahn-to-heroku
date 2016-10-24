@@ -1,0 +1,36 @@
+body {
+padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+h1.baseline, h2.baseline {
+display: inline;
+}
+
+h1.baseline {
+font-size: 20px;
+}
+
+h2.baseline {
+font-size: 15px;
+}
+
+input#id_url {
+width: 400px;
+}
+
+/*
+input#id_url:focus {
+width: 500px;
+}
+*/
+
+form#download_form {
+margin-bottom: 50px;
+}
+
+.fa.fa-5 {
+font-size: 12em;
+}
+.fa.fa-6 {
+font-size: 20em;
+}

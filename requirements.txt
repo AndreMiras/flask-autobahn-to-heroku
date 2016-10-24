@@ -1,0 +1,15 @@
+autobahn==0.16.0
+click==6.6
+crochet==1.5.0
+Flask==0.11.1
+itsdangerous==0.24
+Jinja2==2.8
+MarkupSafe==0.23
+six==1.10.0
+Twisted==16.4.1
+txaio==2.5.1
+Werkzeug==0.11.11
+zope.interface==4.3.2
+gunicorn==19.6.0
+pyOpenSSL==16.2.0
+service-identity==16.0.0

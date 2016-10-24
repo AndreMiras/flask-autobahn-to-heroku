@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block wraptitle %}
+<div class="text-center">
+  <h1>Home</h1>
+</div> <!-- text-centered -->
+{% endblock wraptitle %}
+
+{% block content %}
+<ul class="list-group">
+  <li class="list-group-item"><a href="{{ url_for('rpc_platform') }}">RPC Platform</a></li>
+  <li class="list-group-item"><a href="{{ url_for('rpc_divide') }}">RPC Divide</a></li>
+  <li class="list-group-item"><a href="{{ url_for('publish_topic') }}">Publish Topic</a></li>
+</ul>
+{% endblock content %}
