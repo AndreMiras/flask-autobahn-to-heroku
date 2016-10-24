@@ -1,0 +1,6 @@
+{
+  "name": "Flask & Autobahn",
+  "description": "Deploys the A Flask web app using Autobahn to Heroku",
+  "repository": "https://github.com/AndreMiras/flask-autobahn-to-heroku",
+  "keywords": ["Heroku", "Flask", "Autobahn", "Crochet", "Python"]
+}
