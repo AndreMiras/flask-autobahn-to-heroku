@@ -8,18 +8,9 @@ This is somewhat based on [AutobahnPython Crochet examples](https://github.com/c
  * The web application (`webapp.py`) performs synchronous RPC calls and publishes topics.
  * The backend (`backend.py`) registers RPC procedures and subscribes to topics.
 
-## Screenshots
+![screencast](https://raw.githubusercontent.com/AndreMiras/flask-autobahn-to-heroku/master/static/images/screencast.gif)
 
-### Webapp
-In the screenshot below, the web application performed a Remote Procedure Call to the platform() method and displayed the result to the HTML page.
-
-![webapp](https://raw.githubusercontent.com/AndreMiras/flask-autobahn-to-heroku/master/static/images/webapp.png)
-
-### Backend
-Here the one-off dyno backend running on Heroku handled the platform() RPC.
-
-![backend](https://raw.githubusercontent.com/AndreMiras/flask-autobahn-to-heroku/master/static/images/backend.png)
-
+In the above screencast, we start by running the one-off backend dyno on Heroku. Then clicking to the web app links performs Remote Procedure Calls and events publish, all handled by the backend. Values returned by the backend are received by the web app and displayed to the HTML page.
 
 ## Deploy
 Deploy the web application on Heroku automatically using the "Deploy to Heroku" button.
